@@ -1,7 +1,7 @@
 const fetch = require('node-fetch');
-const ApiKey = "fa57d3578d2985d941d08ba808142401" // your api key
+const ApiKey = "----" // your api key
 
-const reqIP = "xxx.xxx.xxx.xxx" // ipv4
+const reqIP = "-----" // ipv4
 
 async function getIpInfo(ip) {
     const response = await fetch('http://api.ipstack.com/' + ip + "?access_key=" + ApiKey);
